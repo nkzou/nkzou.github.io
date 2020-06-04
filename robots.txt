@@ -1,0 +1,3 @@
+# Disable crawling of static files.
+User-agent: *
+Disallow: /static/
