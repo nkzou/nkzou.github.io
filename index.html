@@ -9,10 +9,120 @@
     <link rel="manifest" href="static/nkzou.webmanifest">
     <link rel="icon" type="image/png" href="static/img/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script defer src="static/js/index.js"></script>
 </head>
 
 <body>
-    <section class="section">
+    <!--is-fixed-top-->
+    <nav id="navbarMain" class="navbar" role="navigation" aria-label="main nav bar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://nkzou.github.io">
+                <img src="static/img/logo.png" width="84" height="28">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item">My Resume</a>
+            </div>
+
+        </div>
+    </nav>
+    <section class="hero is-info">
+        <div class="hero-head">
+        </div>
+        <div class="hero-body is-centered has-text-centered" id="hero">
+            <div class="container">
+                <h1 class="title">
+                    Hi! I'm Kevin Zou.
+                </h1>
+                <h1 class="subtitle">
+                    Curabitur vel iaculis lectus. Sed facilisis cursus convallis.
+                </h1>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <nav class="tabs is-centered is-medium is-fullwidth is-boxed">
+                <div class="container">
+                    <ul>
+                        <li class="is-active"><a>About Me</a></li>
+                        <li><a>Work Experience</a></li>
+                        <li><a>My Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section id="tab-content">
+        <div id="about-me" class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-5 is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">This is title text.</p>
+                        <p class="is-size-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            posuere venenatis lacus nec malesuada. Morbi felis arcu, pellentesque vitae accumsan et,
+                            sagittis vel diam. Sed aliquam viverra aliquet. Pellentesque ac lectus sagittis, consectetur
+                            dui sed, tempus mauris. Duis scelerisque turpis sit amet dui sollicitudin scelerisque.
+                            Nullam id eros turpis. Integer sed elit semper, finibus orci eget, pretium massa. Ut cursus
+                            feugiat nulla, in rutrum mi varius nec. Vivamus a venenatis leo. Duis lacinia condimentum
+                            imperdiet. </p>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+                        <img src="static/img/aboutme-tile2.jpg" alt="Me on a trip in San Francisco">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="work-exp" class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-5 is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">This is title text.</p>
+                        <p class="is-size-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            posuere venenatis lacus nec malesuada. Morbi felis arcu, pellentesque vitae accumsan et,
+                            sagittis vel diam. Sed aliquam viverra aliquet. Pellentesque ac lectus sagittis, consectetur
+                            dui sed, tempus mauris. Duis scelerisque turpis sit amet dui sollicitudin scelerisque.
+                            Nullam id eros turpis. Integer sed elit semper, finibus orci eget, pretium massa. Ut cursus
+                            feugiat nulla, in rutrum mi varius nec. Vivamus a venenatis leo. Duis lacinia condimentum
+                            imperdiet. </p>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+                        <img src="static/img/aboutme-tile2.jpg" alt="Me on a trip in San Francisco">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects" class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-5 is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">This is title text.</p>
+                        <p class="is-size-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            posuere venenatis lacus nec malesuada. Morbi felis arcu, pellentesque vitae accumsan et,
+                            sagittis vel diam. Sed aliquam viverra aliquet. Pellentesque ac lectus sagittis, consectetur
+                            dui sed, tempus mauris. Duis scelerisque turpis sit amet dui sollicitudin scelerisque.
+                            Nullam id eros turpis. Integer sed elit semper, finibus orci eget, pretium massa. Ut cursus
+                            feugiat nulla, in rutrum mi varius nec. Vivamus a venenatis leo. Duis lacinia condimentum
+                            imperdiet. </p>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+                        <img src="static/img/aboutme-tile2.jpg" alt="Me on a trip in San Francisco">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
