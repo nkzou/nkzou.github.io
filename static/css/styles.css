@@ -5,3 +5,7 @@
 #tab-content {
   padding-top: 1rem;
 }
+.social {
+  position: absolute;
+  bottom: 0;
+}
